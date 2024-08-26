@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.cell {
+  background-color: black;
+  height: 40px;
+  width: 40px;
+  border-color: white;
+  border: 1px solid;
+  margin: 4px;
+}
+
+.gameCell {
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  border-color: white;
+  border: 1px solid;
+  margin: 4px;
+}
