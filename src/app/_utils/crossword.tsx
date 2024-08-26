@@ -72,7 +72,7 @@ const createTodaysGame = (gameData: GameData, gameGrid: string[][]) => {
 
 createTodaysGame(gameData, gameGrid);
 
-export default function App() {
+export const Crossword = () => {
   return (
     <div className="App">
       {gameGrid.map((row, idx) => (
@@ -90,4 +90,4 @@ export default function App() {
       ))}
     </div>
   );
-}
+};
